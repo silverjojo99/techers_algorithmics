@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── Text Sizes ────────────────────────────────────────────────────── -->
+    <dimen name="text_xxs">8sp</dimen>
+    <dimen name="text_xs">10sp</dimen>
+    <dimen name="text_sm">12sp</dimen>
+    <dimen name="text_md">14sp</dimen>
+    <dimen name="text_lg">16sp</dimen>
+    <dimen name="text_xl">18sp</dimen>
+    <dimen name="text_xxl">20sp</dimen>
+    <dimen name="text_title_sm">22sp</dimen>
+    <dimen name="text_title_md">24sp</dimen>
+    <dimen name="text_title_lg">28sp</dimen>
+    <dimen name="text_heading">32sp</dimen>
+    <dimen name="text_display">40sp</dimen>
+
+
+    <!-- ── Margins ───────────────────────────────────────────────────────── -->
+    <dimen name="margin_xxs">2dp</dimen>
+    <dimen name="margin_xs">4dp</dimen>
+    <dimen name="margin_sm">8dp</dimen>
+    <dimen name="margin_md">16dp</dimen>
+    <dimen name="margin_lg">24dp</dimen>
+    <dimen name="margin_xl">32dp</dimen>
+    <dimen name="margin_xxl">48dp</dimen>
+
+    <!-- ── heights ───────────────────────────────────────────────────────── -->
+    <dimen name="height_xxs">2dp</dimen>
+    <dimen name="height_xs">4dp</dimen>
+    <dimen name="height_sm">8dp</dimen>
+
+
+    <!-- ── Padding ───────────────────────────────────────────────────────── -->
+    <dimen name="padding_xxs">2dp</dimen>
+    <dimen name="padding_xs">4dp</dimen>
+    <dimen name="padding_sm">8dp</dimen>
+    <dimen name="padding_md">16dp</dimen>
+    <dimen name="padding_lg">24dp</dimen>
+    <dimen name="padding_xl">32dp</dimen>
+    <dimen name="padding_xxl">48dp</dimen>
+
+    <!-- ── Corner Radius ─────────────────────────────────────────────────── -->
+    <dimen name="radius_xs">4dp</dimen>
+    <dimen name="radius_sm">8dp</dimen>
+    <dimen name="radius_md">12dp</dimen>
+    <dimen name="radius_lg">16dp</dimen>
+    <dimen name="radius_xl">24dp</dimen>
+    <dimen name="radius_xxl">32dp</dimen>
+    <dimen name="radius_full">100dp</dimen>
+
+    <!-- ── Icon Sizes ────────────────────────────────────────────────────── -->
+    <dimen name="icon_xxs">8dp</dimen>
+    <dimen name="icon_xs">12dp</dimen>
+    <dimen name="icon_sm">16dp</dimen>
+    <dimen name="icon_md">24dp</dimen>
+    <dimen name="icon_lg">32dp</dimen>
+    <dimen name="icon_xl">48dp</dimen>
+    <dimen name="icon_xxl">64dp</dimen>
+    <dimen name="icon_star_size">12dp</dimen>
+
+    <!-- ── Avatar / Profile Picture ──────────────────────────────────────── -->
+    <dimen name="avatar_xs">24dp</dimen>
+    <dimen name="avatar_sm">32dp</dimen>
+    <dimen name="avatar_md">48dp</dimen>
+    <dimen name="avatar_lg">64dp</dimen>
+    <dimen name="avatar_xl">96dp</dimen>
+    <dimen name="avatar_xxl">120dp</dimen>
+
+    <!-- ── Button ────────────────────────────────────────────────────────── -->
+    <dimen name="button_height_sm">36dp</dimen>
+    <dimen name="button_height_md">48dp</dimen>
+    <dimen name="button_height_lg">56dp</dimen>
+    <dimen name="button_min_width">120dp</dimen>
+    <dimen name="button_padding_horizontal">16dp</dimen>
+    <dimen name="button_padding_vertical">8dp</dimen>
+
+    <!-- ── Input Fields ──────────────────────────────────────────────────── -->
+    <dimen name="input_height_sm">40dp</dimen>
+    <dimen name="input_height_md">48dp</dimen>
+    <dimen name="input_height_lg">56dp</dimen>
+    <dimen name="input_padding_horizontal">12dp</dimen>
+    <dimen name="input_padding_vertical">8dp</dimen>
+
+    <!-- ── Toolbar / AppBar ───────────────────────────────────────────────── -->
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_title_size">20sp</dimen>
+
+    <!-- ── Bottom Navigation ─────────────────────────────────────────────── -->
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="bottom_nav_icon_size">24dp</dimen>
+    <dimen name="bottom_nav_text_size">12sp</dimen>
+
+    <!-- ── Drawer ────────────────────────────────────────────────────────── -->
+    <dimen name="drawer_width">280dp</dimen>
+    <dimen name="drawer_header_height">160dp</dimen>
+    <dimen name="drawer_item_height">48dp</dimen>
+    <dimen name="drawer_item_padding">16dp</dimen>
+
+    <!-- ── Card ──────────────────────────────────────────────────────────── -->
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+
+    <!-- ── Game Card ─────────────────────────────────────────────────────── -->
+    <dimen name="game_thumb_size">80dp</dimen>
+    <dimen name="game_card_width">100dp</dimen>
+    <dimen name="game_card_height">120dp</dimen>
+
+    <!-- ── Divider ───────────────────────────────────────────────────────── -->
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_margin_horizontal">16dp</dimen>
+
+    <!-- ── Elevation ─────────────────────────────────────────────────────── -->
+    <dimen name="elevation_xs">1dp</dimen>
+    <dimen name="elevation_sm">2dp</dimen>
+    <dimen name="elevation_md">4dp</dimen>
+    <dimen name="elevation_lg">8dp</dimen>
+    <dimen name="elevation_xl">16dp</dimen>
+
+    <!-- ── Progress Bar ──────────────────────────────────────────────────── -->
+    <dimen name="progress_height_sm">4dp</dimen>
+    <dimen name="progress_height_md">8dp</dimen>
+    <dimen name="progress_height_lg">12dp</dimen>
+
+    <!-- ── RecyclerView ──────────────────────────────────────────────────── -->
+    <dimen name="recycler_item_spacing">8dp</dimen>
+    <dimen name="recycler_padding">16dp</dimen>
+
+    <!-- ── Dialog ────────────────────────────────────────────────────────── -->
+    <dimen name="dialog_padding">24dp</dimen>
+    <dimen name="dialog_corner_radius">16dp</dimen>
+    <dimen name="dialog_min_width">280dp</dimen>
+
+    <!-- ── Badge ─────────────────────────────────────────────────────────── -->
+    <dimen name="badge_size_sm">8dp</dimen>
+    <dimen name="badge_size_md">16dp</dimen>
+    <dimen name="badge_size_lg">24dp</dimen>
+    <dimen name="badge_text_size">10sp</dimen>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Reusable: Game/Project Card (used in Trends + Projects screens) -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/margin_xs">
+
+    <!-- Game Thumbnail -->
+    <ImageView
+        android:id="@+id/iv_game_thumb"
+        android:layout_width="@dimen/game_thumb_size"
+        android:layout_height="@dimen/game_thumb_size"
+        android:src="@drawable/img_game_placeholder"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg_game_thumb_rounded"
+        android:contentDescription="@string/game_thumbnail_desc" />
+
+    <!-- Game Label -->
+    <TextView
+        android:id="@+id/tv_game_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_label_placeholder"
+        android:textColor="@color/text_dark"
+        android:textSize="@dimen/text_sm"
+        android:gravity="center"
+        android:layout_marginTop="4dp" />
+
+    <!-- Star Rating Row -->
+    <LinearLayout
+        android:id="@+id/ll_star_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:id="@+id/iv_star"
+            android:layout_width="@dimen/icon_star_size"
+            android:layout_height="@dimen/icon_star_size"
+            android:src="@drawable/ic_star_filled"
+            android:contentDescription="@string/star_desc" />
+
+        <TextView
+            android:id="@+id/tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rating_placeholder"
+            android:textSize="@dimen/text_xs"
+            android:textColor="@color/text_gray"
+            android:layout_marginStart="2dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

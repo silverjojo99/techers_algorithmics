@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Reusable: Lesson Row Card (Python / UNIT LESSON row) -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_card_white"
+    android:padding="@dimen/margin_sm"
+    android:layout_marginBottom="@dimen/margin_sm"
+    android:gravity="center_vertical"
+    android:elevation="2dp">
+
+    <!-- Course Thumbnail -->
+    <ImageView
+        android:id="@+id/iv_course_thumb"
+        android:layout_width="@dimen/course_thumb_width"
+        android:layout_height="@dimen/course_thumb_height"
+        android:src="@drawable/img_python_thumb"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg_thumb_rounded"
+        android:contentDescription="Course thumbnail" />
+
+    <!-- Course Info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/margin_sm">
+
+        <!-- Subject Tag -->
+        <TextView
+            android:id="@+id/tv_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Python"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_xs"
+            android:textStyle="bold"
+            android:background="@drawable/bg_tag_purple"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:layout_marginBottom="2dp" />
+
+        <!-- Unit / Lesson sub-label -->
+        <TextView
+            android:id="@+id/tv_unit_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MK3: OOP, Objects Methods PNG"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/text_xs"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Status badges row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_badge_start"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="current lesson"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_xs"
+                android:gravity="center"
+                android:background="@drawable/bg_badge_green"
+                android:paddingHorizontal="6dp"
+                android:layout_marginEnd="4dp" />
+
+            <TextView
+                android:id="@+id/tv_badge_date"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="some date info"
+                android:textColor="@color/text_dark"
+                android:textSize="@dimen/text_xs"
+                android:gravity="center"
+                android:background="@drawable/bg_badge_yellow"
+                android:paddingHorizontal="6dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Arrow icon -->
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_arrow_right"
+        android:contentDescription="Go"
+        android:layout_marginStart="@dimen/margin_sm" />
+
+</LinearLayout>
