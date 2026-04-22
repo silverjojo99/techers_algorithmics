@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shared with student app + teacher-specific additions -->
+<resources>
+    <color name="purple_primary">#6B21A8</color>
+    <color name="purple_dark">#4A1580</color>
+    <color name="purple_light">#9333EA</color>
+    <color name="purple_menu">#7C3AED</color>
+    <color name="pink_accent">#E879F9</color>
+    <color name="green_badge">#22C55E</color>
+    <color name="yellow_badge">#FACC15</color>
+    <color name="red_badge">#EF4444</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background_light">#F5F3FF</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="text_dark">#1E1B4B</color>
+    <color name="text_gray">#6B7280</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="progress_bar_bg">#E9D5FF</color>
+    <color name="purple_btn">#7C3AED</color>
+    <color name="input_bg">#F3E8FF</color>
+    <color name="tab_active_bg">#6B21A8</color>
+    <color name="tab_inactive_bg">#F3F4F6</color>
+</resources>

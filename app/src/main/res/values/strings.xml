@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Algorithmics</string>
+    <!-- Login -->
+    <string name="teacher_login_title">LOGIN</string>
+    <string name="hint_email">admin@algorithmics.email</string>
+    <string name="hint_password">password</string>
+    <string name="btn_login">Login</string>
+    <string name="forgot_everything">I forgot everything</string>
+    <string name="login_as_student">login as a student</string>
+    <!-- Dashboard -->
+    <string name="tab_all">All</string>
+    <string name="tab_by_group">by Group</string>
+    <string name="tab_by_lessons">by Lessons</string>
+    <string name="tab_by_students">by Students</string>
+    <string name="show_stats">show your stats</string>
+    <string name="details_label">Details:</string>
+    <string name="pay_structure">Pay structure</string>
+    <string name="contact_email">contact email</string>
+    <string name="lazy_tuesday">Lazy Tuesday</string>
+    <string name="lesson_notes">lesson notes</string>
+    <!-- Students -->
+    <string name="students_label">Students:</string>
+    <string name="student_detail_title">Ahmed ahmed</string>
+    <string name="field_id">ID:</string>
+    <string name="field_category">category:</string>
+    <string name="field_group">Group:</string>
+    <string name="field_course">Course:</string>
+    <string name="field_description">Description:</string>
+    <string name="field_location">Location:</string>
+</resources>

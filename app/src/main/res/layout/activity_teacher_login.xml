@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TEACHER SCREEN 1 & 2: Teacher Login (two states - empty and filled) -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="32dp"
+        android:paddingTop="48dp"
+        android:paddingBottom="32dp">
+
+        <!-- Logo Banner -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_purple_rounded"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ic_logo_mark"
+                android:contentDescription="Logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algorithmics"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginStart="6dp" />
+        </LinearLayout>
+
+        <!-- LOGIN Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="@color/purple_primary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Email / Username Field -->
+        <EditText
+            android:id="@+id/et_teacher_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_input_field"
+            android:paddingHorizontal="14dp"
+            android:hint="admin@algorithmics.email"
+            android:textSize="13sp"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/text_gray"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Password Field -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp">
+
+            <EditText
+                android:id="@+id/et_teacher_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_input_password"
+                android:paddingHorizontal="14dp"
+                android:paddingEnd="48dp"
+                android:hint="password"
+                android:textSize="13sp"
+                android:textColor="@color/text_dark"
+                android:textColorHint="@color/text_gray"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/iv_toggle_pwd"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/ic_eye"
+                android:contentDescription="Show password" />
+        </RelativeLayout>
+
+        <!-- Visible Password Field (ahmed234 state) -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="24dp">
+
+            <EditText
+                android:id="@+id/et_teacher_password_visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_input_password"
+                android:paddingHorizontal="14dp"
+                android:paddingEnd="48dp"
+                android:hint="ahmed234"
+                android:textSize="13sp"
+                android:textColor="@color/text_dark"
+                android:inputType="text"
+                android:singleLine="true" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/ic_eye_off"
+                android:contentDescription="Hide password" />
+        </RelativeLayout>
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/btn_teacher_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_btn_purple"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Forgot password -->
+        <TextView
+            android:id="@+id/tv_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I forgot everything"
+            android:textColor="@color/purple_primary"
+            android:textSize="13sp"
+            android:textStyle="underline"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Login as student -->
+        <TextView
+            android:id="@+id/tv_login_as_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login as a student"
+            android:textColor="@color/purple_primary"
+            android:textSize="13sp"
+            android:textStyle="underline" />
+
+    </LinearLayout>
+</ScrollView>
