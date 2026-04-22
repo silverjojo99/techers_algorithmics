@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Techers_algorithmics" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Projet_Stage_Algorithmics" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Techers_algorithmics" parent="Base.Theme.Techers_algorithmics" />
+    <style name="Theme.Projet_Stage_Algorithmics" parent="Base.Theme.Projet_Stage_Algorithmics" />
 </resources>

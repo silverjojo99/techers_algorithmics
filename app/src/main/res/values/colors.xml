@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Shared with student app + teacher-specific additions -->
 <resources>
+    <color name="black">#FF000000</color>
     <color name="purple_primary">#6B21A8</color>
     <color name="purple_dark">#4A1580</color>
     <color name="purple_light">#9333EA</color>
@@ -15,9 +15,14 @@
     <color name="text_dark">#1E1B4B</color>
     <color name="text_gray">#6B7280</color>
     <color name="divider">#E5E7EB</color>
+    <color name="next_lesson_bg">#FEF3C7</color>
+    <color name="goals_bg">#F0FDF4</color>
     <color name="progress_bar_bg">#E9D5FF</color>
     <color name="purple_btn">#7C3AED</color>
     <color name="input_bg">#F3E8FF</color>
+    <color name="trends_bar_1">#A855F7</color>
+    <color name="trends_bar_2">#EC4899</color>
+    <color name="black_overlay">#CC000000</color>
     <color name="tab_active_bg">#6B21A8</color>
     <color name="tab_inactive_bg">#F3F4F6</color>
 </resources>

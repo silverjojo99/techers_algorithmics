@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "techers_algorithmics"
+rootProject.name = "Projet_Stage_Algorithmics"
 include(":app")
  
