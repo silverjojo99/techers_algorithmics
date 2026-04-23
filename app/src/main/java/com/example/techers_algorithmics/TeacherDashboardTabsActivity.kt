@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.algorithmics.R
 
 /**
  * SCREEN 5 — Teacher Dashboard with tabs (All / by Group / by Lessons / by Students)

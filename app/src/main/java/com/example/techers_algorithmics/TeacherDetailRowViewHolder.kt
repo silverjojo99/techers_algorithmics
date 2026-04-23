@@ -3,6 +3,7 @@ package com.example.techers_algorithmics
 import android.view.View
 import android.widget.ProgressBar
 import android.widget.TextView
+import com.example.algorithmics.R
 
 /**
  * Reusable ViewHolder for item_teacher_detail_row.xml

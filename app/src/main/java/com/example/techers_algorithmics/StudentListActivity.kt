@@ -6,6 +6,7 @@ import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.algorithmics.R
 
 /**
  * SCREEN 6 — Students List

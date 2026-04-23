@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.algorithmics.R
 
 /**
  * SCREEN 7 & 8 — Student Detail Page

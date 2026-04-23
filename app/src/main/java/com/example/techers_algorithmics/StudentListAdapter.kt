@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.algorithmics.R
 
 /**
  * Adapter + ViewHolder for item_student_list_row.xml (Screen 6)
