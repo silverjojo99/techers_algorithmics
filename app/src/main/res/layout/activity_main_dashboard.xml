@@ -51,7 +51,7 @@
             android:id="@+id/iv_icon1"
             android:layout_width="28dp"
             android:layout_height="28dp"
-            android:src="@drawable/img_python_thumb"
+            android:src="@drawable/img_game_placeholder"
             android:contentDescription="icon"
             android:layout_marginEnd="8dp" />
 

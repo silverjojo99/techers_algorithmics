@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- SCREEN 1: Login Screen -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
@@ -67,14 +66,15 @@
             android:id="@+id/et_login"
             android:layout_width="match_parent"
             android:layout_height="44dp"
+            android:layout_marginBottom="16dp"
+            android:autofillHints=""
             android:background="@drawable/bg_input_field"
-            android:paddingHorizontal="12dp"
-            android:hint="ahmed ahmed"
-            android:textSize="@dimen/text_sm"
-            android:textColor="@color/text_dark"
+            android:hint="@string/ahmed_ahmed"
             android:inputType="text"
+            android:paddingHorizontal="12dp"
             android:singleLine="true"
-            android:layout_marginBottom="16dp" />
+            android:textColor="@color/text_dark"
+            android:textSize="@dimen/text_sm" />
 
         <!-- Password Field Label -->
         <TextView
@@ -149,7 +149,7 @@
             android:id="@+id/btn_login"
             android:layout_width="160dp"
             android:layout_height="44dp"
-            android:text="LOGIN"
+            android:text="@string/login"
             android:textColor="@color/white"
             android:textSize="@dimen/text_md"
             android:textStyle="bold"

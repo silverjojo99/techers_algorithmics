@@ -21,10 +21,13 @@
     <string name="rating_placeholder">4.5</string>
     <string name="game_thumbnail_desc">Game thumbnail</string>
     <string name="star_desc">star</string>
-</resources>
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Algorithmics</string>
+    <string name="algorithmics">Algorithmics</string>
+    <string name="logo">Logo</string>
+    <string name="icon1">icon1</string>
+    <string name="icon2">icon2</string>
+    <string name="icon3">icon3</string>
+
+
     <!-- Login -->
     <string name="teacher_login_title">LOGIN</string>
     <string name="hint_email">admin@algorithmics.email</string>
@@ -52,4 +55,6 @@
     <string name="field_course">Course:</string>
     <string name="field_description">Description:</string>
     <string name="field_location">Location:</string>
+    <string name="login">LOGIN</string>
+    <string name="ahmed_ahmed">ahmed ahmed</string>
 </resources>

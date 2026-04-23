@@ -44,7 +44,7 @@
         <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1" />
 
         <ImageView android:layout_width="28dp" android:layout_height="28dp"
-            android:src="@drawable/img_python_thumb" android:contentDescription="icon"
+            android:src="@drawable/img_game_placeholder" android:contentDescription="icon"
             android:layout_marginEnd="8dp" />
         <ImageView android:layout_width="28dp" android:layout_height="28dp"
             android:src="@drawable/ic_circle_icon2" android:contentDescription="icon"

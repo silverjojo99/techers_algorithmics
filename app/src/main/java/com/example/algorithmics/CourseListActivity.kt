@@ -38,11 +38,11 @@ class CourseListActivity : AppCompatActivity() {
     // ── Sample data — in production this comes from a ViewModel ───────────────
     private fun setupCourseList() {
         val courses = listOf(
-            Lesson(1, "Python", "MK1: Variables & Types",    isCurrent = false, "Mon 3 Apr",  R.drawable.img_python_thumb),
-            Lesson(2, "Python", "MK2: Functions & Loops",    isCurrent = false, "Wed 5 Apr",  R.drawable.img_python_thumb),
-            Lesson(3, "Python", "MK3: OOP, Objects Methods", isCurrent = true,  "Mon 10 Apr", R.drawable.img_python_thumb),
-            Lesson(4, "Python", "MK4: File I/O",             isCurrent = false, "Wed 12 Apr", R.drawable.img_python_thumb),
-            Lesson(5, "Python", "MK5: Error Handling",       isCurrent = false, "Mon 17 Apr", R.drawable.img_python_thumb)
+            Lesson(1, "Python", "MK1: Variables & Types",    isCurrent = false, "Mon 3 Apr",  R.drawable.img_game_placeholder),
+            Lesson(2, "Python", "MK2: Functions & Loops",    isCurrent = false, "Wed 5 Apr",  R.drawable.img_game_placeholder),
+            Lesson(3, "Python", "MK3: OOP, Objects Methods", isCurrent = true,  "Mon 10 Apr", R.drawable.img_game_placeholder),
+            Lesson(4, "Python", "MK4: File I/O",             isCurrent = false, "Wed 12 Apr", R.drawable.img_game_placeholder),
+            Lesson(5, "Python", "MK5: Error Handling",       isCurrent = false, "Mon 17 Apr", R.drawable.img_game_placeholder)
         )
 
         val adapter = LessonAdapter(courses) { lesson ->

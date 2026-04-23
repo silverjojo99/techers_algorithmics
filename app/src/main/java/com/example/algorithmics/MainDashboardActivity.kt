@@ -94,15 +94,15 @@ class MainDashboardActivity : AppCompatActivity() {
         val sampleLessons = listOf(
             Lesson(
                 1, "Python", "MK3: OOP, Objects Methods", isCurrent = true,
-                dateInfo = "Mon 10 Apr", thumbnailRes = R.drawable.img_python_thumb
+                dateInfo = "Mon 10 Apr", thumbnailRes = R.drawable.img_game_placeholder
             ),
             Lesson(
                 2, "Python", "MK2: Functions & Loops", isCurrent = false,
-                dateInfo = "Wed 5 Apr", thumbnailRes = R.drawable.img_python_thumb
+                dateInfo = "Wed 5 Apr", thumbnailRes = R.drawable.img_game_placeholder
             ),
             Lesson(
                 3, "Python", "MK1: Variables & Types", isCurrent = false,
-                dateInfo = "Fri 1 Apr", thumbnailRes = R.drawable.img_python_thumb
+                dateInfo = "Fri 1 Apr", thumbnailRes = R.drawable.img_game_placeholder
             )
         )
 

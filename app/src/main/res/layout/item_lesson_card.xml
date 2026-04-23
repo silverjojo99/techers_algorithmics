@@ -16,7 +16,7 @@
         android:id="@+id/iv_course_thumb"
         android:layout_width="@dimen/course_thumb_width"
         android:layout_height="@dimen/course_thumb_height"
-        android:src="@drawable/img_python_thumb"
+        android:src="@drawable/img_game_placeholder"
         android:scaleType="centerCrop"
         android:background="@drawable/bg_thumb_rounded"
         android:contentDescription="Course thumbnail" />
